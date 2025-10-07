@@ -46,7 +46,7 @@ for tr in soup.find_all("tr"):
 
 df =pd.DataFrame(rows, columns = ["Description", "Code", "Selling", "Buying_TT", "Buting_Notes", "Scrape_time"])
 
-file_name = "Zambian_fx.csv"
+file_name = "Zambia_fx.csv"
 
 if os.path.exists(file_name):
     df_old = pd.read_csv(file_name)
