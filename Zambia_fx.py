@@ -44,7 +44,7 @@ for tr in soup.find_all("tr"):
         
         rows.append([Description, code, selling, buying_tt, buying_notes,scrape_time])
 
-df =pd.DataFrame(rows, columns = ["Description", "Code", "Selling", "Buying_TT", "Buting_Notes", "Scrape_time"])
+df =pd.DataFrame(rows, columns = ["Description", "Code", "Selling", "Buying_TT", "Buying_Notes", "Scrape_time"])
 
 file_name = "Zambia_fx.csv"
 
